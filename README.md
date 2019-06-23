@@ -14,6 +14,9 @@ Big thanks to @tylernguyen
 | USB A, C Audio, Sleep*, Graphics | Fingerprint (Disable in BIOS) | Thunderbolt 3 Functionality |
 | Trackpoint                       | WWAN (Disable in BIOS)        |                             |
 | Mostly Stable OS                 | SD Reader (Disable in BIOS)   |                             |
+| USB-C to Displayport             | HDMI (Needs EDID fix - WIP)   |                             |
+
+The provided wifi card is not compatible with macOS, so I would recommend the DW1560
 
 # Installation
 Copy the CLOVER folder to your EFI
