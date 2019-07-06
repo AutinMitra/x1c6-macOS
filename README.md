@@ -14,9 +14,15 @@ Big thanks to @tylernguyen
 | USB A, C Audio, Sleep*, Graphics | Fingerprint (Disable in BIOS) | Thunderbolt 3 Functionality |
 | Trackpoint                       | WWAN (Disable in BIOS)        |                             |
 | Mostly Stable OS                 | SD Reader (Disable in BIOS)   |                             |
-| USB-C to Displayport             | HDMI (Needs EDID fix - WIP)   |                             |
+| USB-C to Displayport             |                               |                             |
+
+* Sleep itself is working very well, but the power button and Thinkpad LED still blink, even if awake
 
 The provided wifi card is not compatible with macOS, so I would recommend the DW1560
 
 # Installation
 Copy the CLOVER folder to your EFI
+
+# Credits
+I did very little work, mostly updating kexts and tinkering with configs for trackpad and sound
+Credits go to @tylernguyen (Github), @rushstrike (tonymacx86), and @cabriolet (tonymacx86)
