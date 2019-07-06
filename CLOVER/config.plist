@@ -239,7 +239,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 -cdfon -igfxnohdmi lilucpu=9 -lilubetaall</string>
+		<string>dart=0 -cdfon -igfxnohdmi lilucpu=9</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -413,7 +413,7 @@
 		<key>Scan</key>
 		<true/>
 		<key>Theme</key>
-		<string>random</string>
+		<string>Beauty</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -516,7 +516,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x3e7</string>
+		<string>0x67</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
@@ -527,13 +527,13 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.1809171524</string>
+		<string>MBP141.88Z.F000.B00.1809171524</string>
 		<key>Board-ID</key>
-		<string>Mac-827FB448E656EC26</string>
+		<string>Mac-B4831CEBD52A0C4C</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C028454034NJH4RJC</string>
+		<string>C02T1LYAHV29WVPUE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -545,7 +545,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.200.252.0.0</string>
+		<string>184.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -561,11 +561,11 @@
 		<key>PlatformFeature</key>
 		<string>0x1A</string>
 		<key>ProductName</key>
-		<string>MacBookPro15,2</string>
+		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02XN0DGJHCD</string>
+		<string>C02T1LYAHV29</string>
 		<key>SmUUID</key>
-		<string>1868461B-44F5-443D-9EC1-E822FEC344DA</string>
+		<string>476387A0-E83F-4A77-A669-0424D9B23F36</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
