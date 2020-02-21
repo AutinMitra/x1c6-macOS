@@ -20,8 +20,20 @@ Big thanks to @tylernguyen
 
 The provided wifi card is not compatible with macOS, so I would recommend the DW1560
 
+# BIOS Configuration
+Enable thunderbolt assist in BIOS for better power management, and maybe disable VT-D. Disable the devices above, 
+
 # Installation
-Copy the CLOVER folder to your EFI
+Copy the folders to your EFI, and things should work for the most part.
+
+# Troubleshooting
+Some issues may occur due to hardware differences
+
+## Audio
+If your audio is not working, switch layout-id in ``config.plist`` to ``0B000000`` or ``1F000000``
+
+## Power Management
+Even though you may or may not have the same CPU, their configuration/profiles may be different, so generate new CPUFriend kexts for better PM.
 
 # Credits
 I did very little work, mostly updating kexts and tinkering with configs for trackpad and sound
